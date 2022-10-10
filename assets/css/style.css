@@ -2250,10 +2250,13 @@ h3.sidebar-widget {
     margin-right: 0px;
 }
 .product-color > ul li.blue {
-    background: #668fbe none repeat scroll 0 0;
+    background: #388ACA none repeat scroll 0 0;
+}
+.product-color > ul li.orange {
+    background: #D73621 none repeat scroll 0 0;
 }
 .product-color > ul li.yellow {
-    background: #c2a476 none repeat scroll 0 0;
+    background: #ECDE6D none repeat scroll 0 0;
 }
 .product-color > ul li.gray {
     background: #ddd none repeat scroll 0 0;
