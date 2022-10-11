@@ -25,7 +25,7 @@
     $('.slider-active').owlCarousel({
         loop: true,
         nav: false,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 5000,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
@@ -133,7 +133,7 @@
     /* testimonial active */
     $('.testimonial-active').owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 5000,
         navText: ['PRE', 'NEXT'],
         animateOut: 'fadeOut',
