@@ -2255,6 +2255,16 @@ h3.sidebar-widget {
 .product-color > ul li.orange {
     background: #D73621 none repeat scroll 0 0;
 }
+.product-color > ul li.brown {
+    background: #69615E none repeat scroll 0 0;
+}
+.product-color > ul li.gray {
+    background: #3F4552 none repeat scroll 0 0;
+}
+.product-color > ul li.white {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid gray;
+}
 .product-color > ul li.yellow {
     background: #ECDE6D none repeat scroll 0 0;
 }
