@@ -2500,7 +2500,7 @@ button.product-filter-toggle:hover,
 /* shop list */
 .product-list.product-list-width-3 .product-width {
     flex: 0 0 33.333%;
-    max-width: 33.333%%;
+    max-width: 33.333%;
 }
 .product-list-width-3 .product-list-details > h2 {
     font-size: 20px;
