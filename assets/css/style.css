@@ -1591,12 +1591,12 @@
 
 .modal-body {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 50px;
 }
 .modal-dialog {
     margin: 150px auto;
-    min-width: 878px;
+    /* width: auto; */
 }
 .quick-view-tab-content .tab-pane > img {
     width: 100%;

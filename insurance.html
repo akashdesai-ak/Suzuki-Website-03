@@ -10,6 +10,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.png">
 
     <!-- all css here -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/blue.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
@@ -93,125 +97,255 @@
 
             </div>
         </header>
-        <!-- header end -->
+        <!-- header End -->
 
-        <!-- breadcrumbs -->
+        <!-- breadcrumb -->
         <div class="breadcrumb-area pt-255 pb-170" style="background-image: url(assets/img/banner/banner-4.jpg)">
             <div class="container-fluid">
                 <div class="breadcrumb-content text-center">
-                    <h2>Contact Us</h2>
+                    <h2>Insurance</h2>
                     <ul>
                         <li>
-                            <a href="#">home</a>
+                            <a href="index.html">home</a>
                         </li>
-                        <li>Contact Us</li>
+                        <li>Insurance</li>
                     </ul>
                 </div>
             </div>
         </div>
+        <!-- breadcrumb -->
 
-        <!-- TODO: Contact Content -->
-        <div class="contact-area pt-130">
-            <!-- Map -->
-            <div class="container">
-                <div class="contact-map">
-                    <div class="mapouter">
-                        <div class="gmap_canvas">
 
-                            <iframe id="gmap_canvas" style="width:100%; height:450px;"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15135.798916786565!2d73.82352791791318!3d18.485936149474213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc295fe139f961d%3A0xc2027ac3f3ac5ac9!2sARIHAAN%20SUZUKI!5e0!3m2!1sen!2sin!4v1665398782310!5m2!1sen!2sin"></iframe>
-                            <a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>
-                        </div>
+        <!-- Page Content -->
+        <section id="page" class="headtitle container" style="margin: 50px 50px; ">
+            <div class="main">
+                <div class="title titlecont mainhead titleblock">
+
+                </div>
+                <div class="clear"></div>
+                <!--Thank you message-->
+                <!---title Start-->
+                <div class="title bookservice insurancewrap">
+                    <div class="contain">
+                        <!--form Start Here-->
+                        <section class="bookservicemain">
+                            <div class="contactdetail clearfix">
+
+                                <form id="w0" class="clearfix" name="insurance" action="" method="post">
+                                    <input type="hidden" name="_csrf" value="">
+                                    <div class="selectsec clearfix">
+                                        <h2>My Bike Details</h2>
+                                        <div class="clear"></div>
+                                        <div class="fields">
+                                            <label>Model Name<sup>*</sup></label>
+                                            <div class="form-group field-insurance-model_id required has-error">
+                                                <span class=""><select id="insurance-model_id" class="custom-select"
+                                                        name="" title="Select Model" aria-required="true"
+                                                        aria-invalid="true">
+                                                        <option value="">Select Model</option>
+                                                        <optgroup label="New">
+                                                            <option value="1438">Suzuki Gixxer SF 250</option>
+                                                            <option value="2333">Suzuki Burgman Street</option>
+                                                            <option value="2424">Suzuki V-Strom 650XT</option>
+                                                            <option value="2671">Suzuki Gixxer SF</option>
+                                                            <option value="2754">Suzuki Gixxer</option>
+                                                            <option value="2793">Suzuki Gixxer 250</option>
+                                                            <option value="2937">Suzuki Access 125</option>
+                                                            <option value="3449">Suzuki Hayabusa</option>
+                                                            <option value="3587">Suzuki Avenis</option>
+                                                            <option value="3964">Suzuki V-Strom SX</option>
+                                                            <option value="4045">Suzuki Katana</option>
+                                                        </optgroup>
+                                                        <optgroup label="Discontinued Models">
+                                                            <option value="677">Suzuki Access</option>
+                                                            <option value="680">Suzuki Hayabusa</option>
+                                                            <option value="681">Suzuki Intruder M1800R</option>
+                                                            <option value="683">Suzuki GSX R1000</option>
+                                                            <option value="684">Suzuki Intruder</option>
+                                                            <option value="685">Suzuki Swish</option>
+                                                            <option value="686">Suzuki Hayate</option>
+                                                            <option value="687">Suzuki V Strom 1000</option>
+                                                            <option value="688">Suzuki Gixxer</option>
+                                                            <option value="689">Suzuki Let's</option>
+                                                            <option value="690">Suzuki Gixxer SF</option>
+                                                            <option value="691">Suzuki GSX S1000</option>
+                                                            <option value="692">Suzuki GSX S1000F</option>
+                                                            <option value="842">Suzuki Access 125</option>
+                                                            <option value="1439">Suzuki RM Z250</option>
+                                                            <option value="2176">Suzuki Intruder</option>
+                                                            <option value="2216">Suzuki GSX R1000R</option>
+                                                            <option value="2305">Suzuki GSX S750</option>
+                                                            <option value="2423">Suzuki RM Z450</option>
+                                                            <option value="2598">Suzuki DR-Z50</option>
+                                                        </optgroup>
+                                                        <!-- </select><span class="holder">Select Model</span></span> -->
+                                                        <div class="help-block">Please enter Model Name.</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="fields">
+                                            <label>Registration Number<sup>*</sup></label>
+                                            <div
+                                                class="form-group field-insurance-registration_number required has-error">
+
+                                                <input type="text" id="insurance-registration_number"
+                                                    class="name form-control" name="" title="Registration Number"
+                                                    placeholder="Registration Number" aria-required="true"
+                                                    aria-invalid="true">
+
+                                                <div class="help-block">Please enter Registration Number.</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="fields">
+                                            <label>Registration Year<sup>*</sup></label>
+                                            <div
+                                                class="form-group field-insurance-registration_year required has-error">
+
+                                                <input type="text" id="insurance-registration_year" class="name form-control
+                                                    name="" title=" Registration Year" placeholder="Registration Year"
+                                                    aria-required="true" aria-invalid="true">
+
+                                                <div class="help-block">Please enter Registration Year.</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="fields">
+                                            <label>Registration Month<sup>*</sup></label>
+                                            <div class="form-group field-insurance-registration_month required">
+                                                <span class=""><select id="insurance-registration_month"
+                                                        class="custom-select" name="" title="Select Month"
+                                                        aria-required="true">
+                                                        <option value="">Select Month</option>
+                                                        <option value="1">January</option>
+                                                        <option value="2">February</option>
+                                                        <option value="3">March</option>
+                                                        <option value="4">April</option>
+                                                        <option value="5">May</option>
+                                                        <option value="6">June</option>
+                                                        <option value="7">July</option>
+                                                        <option value="8">August</option>
+                                                        <option value="9">September</option>
+                                                        <option value="10">October</option>
+                                                        <option value="11">November</option>
+                                                        <option value="12">December</option>
+                                                    </select>
+                                                    <!-- <span class="holder">Select Month</span></span> -->
+                                                    <div class="help-block"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2>Old Policy Details</h2>
+
+                                    <div class="clear"></div>
+                                    <div class="fields">
+                                        <label>Policy No</label>
+                                        <div class="form-group field-insurance-policy_no">
+
+                                            <input type="text" id="insurance-policy_no" class="name form-control"
+                                                name="Insurance[policy_no]" title="Policy Number">
+
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fields">
+                                        <label>Insurance Company </label>
+                                        <div class="form-group ">
+
+                                            <input type="text" id="insurance-insurance_company" class="form-control"
+                                                name="Insurance[insurance_company]" title="Insurance Company"
+                                                placeholder="Insurance Company">
+
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="">
+                                        <label>Insurance Expiry Date </label>
+                                        <div class="form-group field-insurance-insurance_expiry_date">
+
+                                            <input type="date" id="insurance-insurance_expiry_date"
+                                                name="Insurance[insurance_expiry_date]" title="Insurance Expiry Date "
+                                                placeholder="Insurance Expiry Date" class="hasDatepicker form-control w-auto">
+
+
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="textsec clearfix">
+                                        <h2>My Contact Details</h2>
+
+                                        <div class="clear"></div>
+                                        <div class="fields">
+                                            <label>Name<sup>*</sup></label>
+                                            <div class="form-group field-insurance-name required">
+
+                                                <input type="text" id="insurance-name" class="name"
+                                                    name="Insurance[name]" title="Name" placeholder="Name"
+                                                    aria-required="true">
+
+                                                <div class="help-block"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="fields">
+                                            <label>Email</label>
+                                            <div class="form-group field-insurance-email">
+
+                                                <input type="text" id="insurance-email" class="name"
+                                                    name="Insurance[email]" title="Email" placeholder="Email">
+
+                                                <div class="help-block"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="fields">
+                                            <label>City<sup>*</sup></label>
+                                            <div class="form-group field-insurance-city required">
+                                                <span class="">
+                                                    <input type="text" name="City" id="city" placeholder="Enter City"
+                                                        class="form-control">
+                                                    <div class="help-block"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="fields">
+                                            <label>Mobile No <sup>*</sup></label>
+                                            <div class="form-group field-insurance-mobile_no required">
+
+                                                <input type="text" id="insurance-mobile_no" class="name" name=""
+                                                    maxlength="10" title="Mobile No" placeholder="Mobile No"
+                                                    aria-required="true">
+
+                                                <div class="help-block"></div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <button type="submit" class=" select-button" title="Get Your Insurance Now ">Get
+                                        Your
+                                        Insurance Now </button>
+                                </form>
+                                <!--<p>Please leave a message on <a href="mailto:Sales@goauto.in">Sales@goauto.in</a> if there is no reply</p>-->
+                            </div>
+                            <!--End-->
+                        </section>
+                        <!-- form Panel Ends Here -->
+
                     </div>
                 </div>
+                <!---title End-->
+                <div class="clear"></div>
             </div>
-            <!--Contact information -->
-            <div class="all-info ptb-130">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="contact-info-wrapper">
-                                <h4 class="contact-title">INFORMATION</h4>
-                                <div class="communication-info">
-                                    <div class="single-communication">
-                                        <div class="communication-icon">
-                                            <i class="ti-home" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="communication-text">
-                                            <h4>Address:</h4>
-                                            <p>Shop No. 1/2/3, Ground Floor, Plot No. 545/5, Shivneri Building, Sinhagad Road, Dattawadi, Pune-411030.</p>
-                                        </div>
-                                    </div>
-                                    <div class="single-communication">
-                                        <div class="communication-icon">
-                                            <i class="ti-mobile" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="communication-text">
-                                            <h4>Phone:</h4>
-                                            <p>+91 7276466668 - 9822640200</p>
-                                        </div>
-                                    </div>
-                                    <div class="single-communication">
-                                        <div class="communication-icon">
-                                            <i class="ti-email" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="communication-text">
-                                            <h4>Email:</h4>
-                                            <p><a href="#">arihaanautowheelz@gmail.com</a></p>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="single-communication">
-                                        <div class="communication-icon">
-                                            <i class="ti-world" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="communication-text">
-                                            <h4>Website:</h4>
-                                            <p><a href="#">https://example.com</a></p>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="contact-message-wrapper">
-                                <h4 class="contact-title">GET IN TOUCH</h4>
-                                <div class="contact-message">
-                                    <form id="contact-form" action=""
-                                        method="">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="contact-form-style mb-20">
-                                                    <input name="name" placeholder="Full Name" type="text">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="contact-form-style mb-20">
-                                                    <input name="email" placeholder="Eail Address" type="email">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="contact-form-style mb-20">
-                                                    <input name="subject" placeholder="Subject" type="text">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <div class="contact-form-style">
-                                                    <textarea name="message" placeholder="Massage"></textarea>
-                                                    <button class="submit cr-btn btn-style" type="submit"><span>SEND
-                                                            MASSAGE</span></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <p class="form-messege"></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact Content Close -->
+        </section>
+        <!-- Page Content End -->
+
+
+
+
+
 
         <!-- newsletter -->
         <div class="newsletter-area">
@@ -372,16 +506,17 @@
                 </div>
             </div>
         </footer>
-        <!--footer close-->
+
     </div>
 
 
 
 
 
-
-
     <!-- all js here -->
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/knight.js"></script>
+
     <script src="./assets/js/vender/jquery-1.12.0.min.js"></script>
     <script src="./assets/js/popper.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
